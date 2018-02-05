@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Tomasz : Home</title>
+        <link rel="icon" type="image/icon" href="static/assets/images/tabicon.ico">
+
+        <link rel="stylesheet" type="text/css" href="">
+        <link href="static/assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="static/assets/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="static/assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,700i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,700,700i|Josefin+Sans:700" rel="stylesheet">
+        <link href="static/assets/css/main.css" rel="stylesheet">
+        <link rel="icon" href="static/assets/images/logo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        
+    </head>
+
+    <body>
+        <div id="index" background="static/assets/images/alpaka.jpg">                                           <!-- Index starts here -->
+            <div class="container main" background="static/assets/images/alpaka.jpg">
+
+                <div class="row home">
+                    <div id = "index_left" class="col-md-6 left">
+                        <img class="img-responsive img-rabbit" src="static/assets/images/cracow.jpg">
+                    </div>
+                    <div id = "index_right" class="col-md-6 text-center right">
+                        <div class="logo">
+                            <h4>Take your chances</h4>
+                        </div>
+                        <p class="home-description">
+                            Hi, I am Tomasz, aspiring software developer from Kraków, Poland.
+                        </p>
+                        <div class="btn-group-vertical custom_btn animated slideinright">
+                            <div id="about" class="btn btn-rabbit">About</div>
+                            <div id="blog" class="btn btn-rabbit" onclick="window.location.href='/posts/blog'">Blog</div>
+                            <div id="CV" class="btn btn-rabbit"  onclick="window.location = '';">CV</div>
+                        </div>      
+                        <div class="social">
+                            <a href="https://www.facebook.com/tomek.czepiel.5"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://github.com/TomaszCPL"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>                                                      <!-- index ends here -->
+
+        <div id="about_scroll" class="pages ">                      <!-- about strats here  -->
+            <div class="container main">
+                <div class="row">
+                    <div class="col-md-6 left" id="about_left">
+                        <img class="img-responsive img-rabbit" src="static/assets/images/about.jpg">
+                    </div>
+
+                    <div class="col-md-6 right" id="about_right">
+                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
+                        <div id="watermark">
+                            <h2 class="page-title" text-center>About</h2>
+                            <div class="marker">a</div>
+                        </div>
+                        <p class='subtitle'>ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                        <p class="info">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>  
+                    </div>
+                </div>
+            </div>            
+        </div>                                                                <!-- About ends here -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="static/assets/js/bootstrap.min.js"></script>
+        <script src="static/assets/js/script.js"></script>
+    </body>
+</html>
